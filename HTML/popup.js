@@ -5,8 +5,6 @@ let justwatchurl = "https://www.justwatch.com/es/";
 
 getMovie();
 
-//chrome.runtime.sendMessage({message:"fetch_pls"}, () =>console.log("cool"));
-
 function getMovie() {
     console.log("Obtaining Filmaffinity and justwatch url and movie title");
 
